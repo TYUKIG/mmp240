@@ -1,3 +1,15 @@
-#wrapper{
- max-width: 1200px;
+ #wrapper{
+    max-width: 1200px;
+    margin-right:0 auto; /*first value is for top/bottom, second value for left/rigth */
+ }
+
+ /* .episode-card */
+.episode-card{
+    width: 24px;
+}
+
+.episode{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
