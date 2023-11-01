@@ -13,3 +13,12 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.group{
+    float:left
+
+}
+.group{
+    float::right
+
+}
