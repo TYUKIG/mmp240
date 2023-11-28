@@ -9,6 +9,10 @@ padding:1em;
     justify-self: space-between;
 }
 
+.meau{
+    display: none;
+}
+
 .show-meau{
     background-color: transparent;
     border: none;
