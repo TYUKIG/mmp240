@@ -10,6 +10,7 @@
 
 .layout{
     display: grid;
+    grid-template-rows: auto auto auto;
     grid-template-columns: 32% 32% 32%;
     grid-row: 2%;
     grid-column-gap: 1em;
