@@ -1,3 +1,4 @@
+
 *{ 
     margin:0;
     padding:0;
@@ -10,8 +11,8 @@
 nav a{
     display:block;
     padding:10px;
-    background-color: rgb(248, 235, 242);
-    border-bottom: solid 1px #ff2d2d;
+    background-color: rgb(238, 235, 235);
+    border-bottom: solid 1px #302f2f;
     color:black;
     text-decoration: none;
 }
@@ -21,12 +22,12 @@ nav a:hover{
 }
 
 .drop-menu a{
-    background-color: rgb(159, 187, 159);
+    background-color: rgb(212, 212, 212);
     color: black;
 }
 
 .drop-menu a:hover{
-    background-color: rgb(99, 63, 69)
+    background-color: rgb(247, 247, 247)
 }
 
 .drop-menu{

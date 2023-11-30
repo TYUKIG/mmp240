@@ -1,0 +1,33 @@
+/*CSS Styles */
+
+
+.site-header{
+    display: flex;
+    justify-self: space-between;
+}
+
+.meau{
+    display: none;
+}
+
+ @media (min-width:768px){
+
+    .show-meau{
+        display: none;
+    }
+    .meau{
+        display:flex;
+    }
+
+    .meau li{
+        display:line;
+        margin-right:2em;
+    }
+    .hero-banner{
+        mis-height:12em;
+        background-color: teal;
+        padding: 1em;
+        margin-bottom: 1em;
+
+    }
+}/* closing media query */
