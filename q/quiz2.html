@@ -1,56 +1,40 @@
+
+If you're looking for simple code to create a basic grid using HTML and CSS, here's a minimal example:
+
+html
+Copy code
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz 4</title>
     <style>
-
-        #wrapper{
-            max-width: 1200px;
-            margin-left:auto;
-            margin-right:auto;
-            padding:16px;
+        body {
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+            grid-template-rows: repeat(3, 100px); /* Adjust the number of rows and height as needed */
+            gap: 1px; /* Adjust the gap between cells as needed */
         }
 
-        .layout{
-            display:grid;
-            grid-template-rows: 300px 300px;
-            grid-template-columns: 33.3% 33.3% 33.3%;
-            grid-column-gap: 16px;
-            grid-row-gap:16px;
+        div {
+            border: 1px solid #000;
+            box-sizing: border-box;
+            text-align: center;
+            line-height: 100px; /* Adjust the line height to center content vertically */
         }
-
-        .one{
-            background-color: aqua;
-            grid-column-start: 1;
-            grid-column-end: 4;
-        }
-
-        .two, .three, .four{
-            background-color:coral;
-        }
-
-      </style>
-
-  </head>
-  <body>
-      <div id="wrapper">
-          <div class="layout">
-              <div class="one">
-                  One
-              </div>
-              <div class="two">
-                  Two
-              </div>
-              <div class="three">
-                  Three
-              </div>
-              <div class="four">
-                  Four
-              </div>
-          </div>
-    </div>
-  </body>
- </html>
-  <link rel="stylesheet" href="style.css">
+    </style>
+    <title>Basic Grid</title>
+</head>
+<body>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+</body>
+</html>
