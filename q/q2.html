@@ -1,18 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Quiz 2</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 4</title>
     <style>
-    /* Type CSS code here */
 
-    </style>
+        #wrapper{
+            max-width: 1200px;
+            margin-left:auto;
+            margin-right:auto;
+            padding:16px;
+        }
+
+        .layout{
+            display:grid;
+            grid-template-rows: 300px 300px;
+            grid-template-columns: 33.3% 33.3% 33.3%;
+            grid-column-gap: 16px;
+            grid-row-gap:16px;
+        }
+
+        .one{
+            background-color: aqua;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+
+        .two, .three, .four{
+            background-color:coral;
+        }
+
+      </style>
 
   </head>
   <body>
-    <header>
-      <h1 id="site-title" class="main-title">All About Selectors</h1>
-    </header>
+    
+
+    ​
+    LANCE LECTORA
+    ​
+    <div id="wrapper">
+    <div class="layout">
+    <div class="one">
+    <img src="image/black0.png" alt="">
+    </div>
+    <div class="two">
+    <img src="image/tdog.jpg" alt="">
+    </div> 
+    <div class="three">
+    <img src="image/gray.jpg" alt="">
+    </div>
+    <div class="four">
+      <img src="pop.png" alt="r" width="300">
+    </div> 
+    </div>
   </body>
 </html>
