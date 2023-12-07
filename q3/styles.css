@@ -1,0 +1,9 @@
+.flex-container {
+    display: flex;
+    justify-content: space-evenly; /* Distribute flex items evenly along the line */
+    align-items: center; /* Center the row of boxes vertically */
+  }
+  
+  .jump {
+    align-self: flex-end; /* Align the box with the jump class to the bottom of the flexbox */
+  }
