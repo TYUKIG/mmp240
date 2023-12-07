@@ -1,0 +1,26 @@
+#wrapper{
+    max-width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:16px;
+}
+
+.layout{
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-column-gap: 16px;
+    grid-row-gap:16px;
+}
+
+.one{
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1; /* Start the item from the first row */
+    grid-row-end: 3; /* Make the item span 2 rows */
+}
+
+.two, .three, .four{
+    background-color:coral;
+}
