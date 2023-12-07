@@ -1,0 +1,7 @@
+.content {
+    background: 
+        /* First background - Image */
+        url('path/to/your-image.jpg') center/cover no-repeat, 
+        /* Second background - Color */
+        rgb(255, 0, 0);
+}
