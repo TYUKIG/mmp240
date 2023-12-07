@@ -41,3 +41,9 @@ nav li:hover .drop-menu{
 p{
     nargin:10px;
 }
+
+.layout{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    
+}
