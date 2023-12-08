@@ -1,28 +1,9 @@
-/* Gradient Background */
-body {
-    background: linear-gradient(to right, #4285f4, #34a853, #fbbc05, #ea4335);
-  }
-  
-  /* Black Dots */
-  .dot {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background-color: rgba(0, 0, 0, 0.2); /* Change the transparency here */
-    border-radius: 50%;
-  }
-  
-  .dot1 {
-    top: 50px;
-    left: 50px;
-  }
-  
-  .dot2 {
-    top: 100px;
-    left: 150px;
-  }
-  
-  .dot3 {
-    top: 150px;
-    left: 250px;
-  }
+#wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+ }
+
+ header{
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 40%, rgba(255,255,255,0) 60%),
+  url(fire.png) right top no-repeat
+ }
