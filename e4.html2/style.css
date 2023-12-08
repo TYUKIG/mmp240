@@ -1,8 +1,6 @@
-#warapper{
-    max-width: 1200px;
-    margin:0 auto 
-}
-header{
-    background:
-    linear-gradient(90deg, rgba 0,0,0,1) 0, rgba(0,0,0,1) 300px, rgba (255, 255,255,0)
-}
+.content {
+    background: 
+      url('first-background.jpg') top left no-repeat,
+      url('second-background.jpg') bottom right no-repeat;
+    /* other background properties */
+  }
