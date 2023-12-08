@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz 4</title>
+    <title>Quiz 3</title>
     <style>
 
         #wrapper{
@@ -23,38 +23,40 @@
 
         .one{
             background-color: aqua;
+            grid-row-start: 1;
+            grid-row-end: 4;
             grid-column-start: 1;
-            grid-column-end: 4;
+            grid-column-end: -4;
         }
 
         .two, .three, .four{
             background-color:coral;
         }
 
+      .two{
+            grid-column-start: 2;
+            grid-column-end: 3;
+        } 
+
       </style>
 
   </head>
   <body>
-    
-
-    ​
-    LANCE LECTORA
-    ​
-    <div id="wrapper">
-    <div class="layout">
-    <div class="one">
-    <img src="56.png" width="1200x200">
-    </div>
-    <div class="two">
-      <img src="poke.png" alt="" width="400x900">
-    </div> 
-    <div class="three">
-    <img src="poke.png" alt="" width="400x900">
-    </div>
-    <div class="four">
-      <img src="poke.png" alt="340" width="400">
-    </div> 
+      <div id="wrapper">
+          <div class="layout">
+              <div class="one">
+                  One
+              </div>
+              <div class="two">
+                  Two
+              </div>
+              <div class="three">
+                  Three
+              </div>
+              <div class="four">
+                  Four
+              </div>
+          </div>
     </div>
   </body>
 </html>
-<link rel="stylesheet" href="styles.css">
