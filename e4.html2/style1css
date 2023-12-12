@@ -1,4 +1,0 @@
-.flex-container {
-  display: flex;
-  /* Other flex-related styles */
-}
