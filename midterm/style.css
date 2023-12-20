@@ -22,3 +22,8 @@
     float:right
 
 }
+.layout{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    
+}
