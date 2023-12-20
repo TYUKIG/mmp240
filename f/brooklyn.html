@@ -1,59 +1,58 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="utf-8">
     <title>brooklyn</title>
 
     <style>
-    /* Type CSS code here */
-    .flex-container {
-        display: flex;
-    }
+        /* Type CSS code here */
+        #wrapper {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
 
-    .flex-item {
-        flex: 10 auto;
-    }
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
 
-    .lead {
-        flex: 20 auto;
-    }
+        .flex-item {
+            width: 200px;
+            border: solid 1px gray;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+        }
 
-    #wrapper{
-      max-width:1200px;
-      margin:0 auto;
-    }
+        .lead {
+            flex: 1 0 100%;
+        }
 
-    .flex-item{
-      width:200px;
-      border:solid 1px gray;
-      padding:5px;
-      border-radius: 10px;
-      margin:0.5em;
-    }
+        .img-responsive {
+            width: 100%;
+            height: auto;
+        }
 
-    .lead{
-      border:none;
-    }
+        .lead h1 {
+            font-size: 24px;
+        }
 
-    .img-responsive{
-      width:100%;
-    }
+        .flex-item h3,
+        .flex-item h8 {
+            margin: 0;
+        }
 
-    .lead p{
-      font-size: larger;
-    }
-
+        .flex-item p {
+            font-size: 14px;
+        }
     </style>
-
-  </head>
-  <body>
+</head>
+<body>
     <div id="wrapper">
-
-      <div class="flex-container">
-
-        <div class="flex-item lead">
-          <h1>brooklyn</h1>
-        </div>
+        <div class="flex-container">
+            <div class="flex-item lead">
+                <h1>brooklyn</h1>
+            </div>
 
         <div class="flex-item card1">
             <img src="kingsborough.png" alt="placeholder" class="img-responsive">
